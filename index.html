@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat bot</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="bodyp">
+
+    <h1 class="hline">Welcome to my chat bot</h1>
+
+    <div class="name">
+      <input type="text" required="" onkeydown="if(event.keyCode==13){ talk()}" id="userbox"
+        placeholder="Enter your Query">
+      <!-- <label>Enter your query!!</label> -->
+    </div>
+
+    <p id="answer">Your answer is here:</p>
+
+    <div class="spq">
+      <p>Supported Questions?</p>
+    </div>
+    <div class="hide">
+      <ol>
+        <li>Who are you?</li>
+        <li>How are you</li>
+        <li>What can I do for you</li>
+        <li>Your followers</li>
+        <li>Give your Id</li>
+        <li>Okay</li>
+        <li>Bye</li>
+        </ul>
+    </div>
+
+
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
